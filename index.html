@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <form>
+            <fieldset>
+                <label for="email">📧 Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="password">🔒 Password:</label><br>
+                <input type="password" id="password" name="password" required><br> 
+
+                <p>What is your Gender?</p>
+                
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male"> 
+                
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female"><br>
+
+                <p>What is your favourite color?</p>
+                <label for="color-select" class="sr-only">Choose a color</label>
+                <select id="color-select" name="favorite_color">
+                    <option value="green">Green</option>
+                    <option value="black">Black</option>
+                    <option value="yellow">Yellow</option>
+                </select><br>
+                
+                <button type="submit">Submit Form</button>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
